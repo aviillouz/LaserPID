@@ -1,3 +1,5 @@
+//A PI controller
+//moudle to correct signal_output according to error_input
 module basic_pi_controller(
  output signed [8:0] signal_output, //the signal - output
  input signed [8:0] error_input, //the error - input
@@ -13,7 +15,7 @@ module basic_pi_controller(
 	reg signed [8:0] previousSignal;
 	reg signed [8:0] previousError;
 
-	//the digital PID equation 
+	//the digital PID equation
 	assign signal_output = previousSignal + k1*error_input - k2*previousError;
 
 	//update registers on each clock edge
