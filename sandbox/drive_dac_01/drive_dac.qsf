@@ -52,7 +52,62 @@ set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda
 set_global_assignment -name VERILOG_FILE drive_dac.v
 set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
 set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
-set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_location_assignment PIN_V16 -to led[0]
+set_location_assignment PIN_W16 -to led[1]
+set_location_assignment PIN_V17 -to led[2]
+set_location_assignment PIN_V18 -to led[3]
+set_location_assignment PIN_W17 -to led[4]
+set_location_assignment PIN_W19 -to led[5]
+set_location_assignment PIN_Y19 -to led[6]
+set_location_assignment PIN_W20 -to led[7]
+set_location_assignment PIN_W21 -to led[8]
+set_location_assignment PIN_AB12 -to sw[0]
+set_location_assignment PIN_AC12 -to sw[1]
+set_location_assignment PIN_AF9 -to sw[2]
+set_location_assignment PIN_AF10 -to sw[3]
+set_location_assignment PIN_AD11 -to sw[4]
+set_location_assignment PIN_AD12 -to sw[5]
+set_location_assignment PIN_AE11 -to sw[6]
+set_location_assignment PIN_AC9 -to sw[7]
+set_location_assignment PIN_AD10 -to sw[8]
+set_location_assignment PIN_AB17 -to gpio1[0]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to sw[8] -entity sw_to_led
+set_instance_assignment -name IO_STANDARD "2.5 V" -to gpio1[0] -entity sw_to_led
+set_location_assignment PIN_AA21 -to gpio1[1]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to gpio1[1] -entity sw_to_led
+set_location_assignment PIN_AB21 -to gpio1[2]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to gpio1[2] -entity sw_to_led
+set_location_assignment PIN_AC23 -to gpio1[3]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to gpio1[3] -entity sw_to_led
+set_location_assignment PIN_AD24 -to gpio1[4]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to gpio1[4] -entity sw_to_led
+set_location_assignment PIN_AE23 -to gpio1[5]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to gpio1[5] -entity sw_to_led
+set_location_assignment PIN_AE24 -to gpio1[6]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to gpio1[6] -entity sw_to_led
+set_location_assignment PIN_AF25 -to gpio1[7]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to gpio1[7] -entity sw_to_led
+set_location_assignment PIN_AF26 -to gpio1[8]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to gpio1[8] -entity sw_to_led
+set_instance_assignment -name IO_STANDARD "2.5 V" -to led[0] -entity sw_to_led
+set_instance_assignment -name IO_STANDARD "2.5 V" -to led[1] -entity sw_to_led
+set_instance_assignment -name IO_STANDARD "2.5 V" -to led[2] -entity sw_to_led
+set_instance_assignment -name IO_STANDARD "2.5 V" -to led[3] -entity sw_to_led
+set_instance_assignment -name IO_STANDARD "2.5 V" -to led[4] -entity sw_to_led
+set_instance_assignment -name IO_STANDARD "2.5 V" -to led[5] -entity sw_to_led
+set_instance_assignment -name IO_STANDARD "2.5 V" -to led[6] -entity sw_to_led
+set_instance_assignment -name IO_STANDARD "2.5 V" -to led[7] -entity sw_to_led
+set_instance_assignment -name IO_STANDARD "2.5 V" -to led[8] -entity sw_to_led
+set_instance_assignment -name IO_STANDARD "2.5 V" -to sw[0] -entity sw_to_led
+set_instance_assignment -name IO_STANDARD "2.5 V" -to sw[1] -entity sw_to_led
+set_instance_assignment -name IO_STANDARD "2.5 V" -to sw[2] -entity sw_to_led
+set_instance_assignment -name IO_STANDARD "2.5 V" -to sw[3] -entity sw_to_led
+set_instance_assignment -name IO_STANDARD "2.5 V" -to sw[4] -entity sw_to_led
+set_instance_assignment -name IO_STANDARD "2.5 V" -to sw[5] -entity sw_to_led
+set_instance_assignment -name IO_STANDARD "2.5 V" -to sw[6] -entity sw_to_led
+set_instance_assignment -name IO_STANDARD "2.5 V" -to sw[7] -entity sw_to_led
+set_global_assignment -name CDF_FILE Chain.cdf
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

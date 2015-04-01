@@ -1,5 +1,5 @@
 EDA Netlist Writer report for drive_dac
-Wed Apr 01 15:43:19 2015
+Wed Apr 01 15:55:50 2015
 Quartus II 64-Bit Version 14.0.0 Build 200 06/17/2014 SJ Web Edition
 
 
@@ -37,7 +37,7 @@ agreement for further details.
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-; EDA Netlist Writer Status ; Successful - Wed Apr 01 15:43:19 2015 ;
+; EDA Netlist Writer Status ; Successful - Wed Apr 01 15:55:50 2015 ;
 ; Revision Name             ; drive_dac                             ;
 ; Top-level Entity Name     ; drive_dac                             ;
 ; Family                    ; Cyclone V                             ;
@@ -82,13 +82,13 @@ agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit EDA Netlist Writer
     Info: Version 14.0.0 Build 200 06/17/2014 SJ Web Edition
-    Info: Processing started: Wed Apr 01 15:43:18 2015
+    Info: Processing started: Wed Apr 01 15:55:49 2015
 Info: Command: quartus_eda --read_settings_files=off --write_settings_files=off drive_dac -c drive_dac
 Warning (10905): Generated the EDA functional simulation files although EDA timing simulation option is chosen.
 Info (204019): Generated file drive_dac.vo in folder "C:/Users/OWNER/Documents/GitHub/LaserPID/sandbox/drive_dac_01/simulation/modelsim/" for EDA simulation tool
 Info: Quartus II 64-Bit EDA Netlist Writer was successful. 0 errors, 1 warning
     Info: Peak virtual memory: 524 megabytes
-    Info: Processing ended: Wed Apr 01 15:43:19 2015
+    Info: Processing ended: Wed Apr 01 15:55:50 2015
     Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:01
 

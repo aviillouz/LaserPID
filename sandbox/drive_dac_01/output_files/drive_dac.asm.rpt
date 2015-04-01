@@ -1,5 +1,5 @@
 Assembler report for drive_dac
-Wed Apr 01 15:43:09 2015
+Wed Apr 01 15:55:40 2015
 Quartus II 64-Bit Version 14.0.0 Build 200 06/17/2014 SJ Web Edition
 
 
@@ -38,7 +38,7 @@ agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Wed Apr 01 15:43:09 2015 ;
+; Assembler Status      ; Successful - Wed Apr 01 15:55:40 2015 ;
 ; Revision Name         ; drive_dac                             ;
 ; Top-level Entity Name ; drive_dac                             ;
 ; Family                ; Cyclone V                             ;
@@ -68,8 +68,8 @@ agreement for further details.
 ; Option         ; Setting                                                                                           ;
 +----------------+---------------------------------------------------------------------------------------------------+
 ; Device         ; 5CSEMA5F31C6                                                                                      ;
-; JTAG usercode  ; 0x00AFA0A9                                                                                        ;
-; Checksum       ; 0x00AFA0A9                                                                                        ;
+; JTAG usercode  ; 0x00AF94F6                                                                                        ;
+; Checksum       ; 0x00AF94F6                                                                                        ;
 +----------------+---------------------------------------------------------------------------------------------------+
 
 
@@ -79,13 +79,13 @@ agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Assembler
     Info: Version 14.0.0 Build 200 06/17/2014 SJ Web Edition
-    Info: Processing started: Wed Apr 01 15:43:00 2015
+    Info: Processing started: Wed Apr 01 15:55:32 2015
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off drive_dac -c drive_dac
 Info (115030): Assembler is generating device programming files
 Info: Quartus II 64-Bit Assembler was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 654 megabytes
-    Info: Processing ended: Wed Apr 01 15:43:09 2015
-    Info: Elapsed time: 00:00:09
+    Info: Peak virtual memory: 653 megabytes
+    Info: Processing ended: Wed Apr 01 15:55:40 2015
+    Info: Elapsed time: 00:00:08
     Info: Total CPU time (on all processors): 00:00:08
 
 

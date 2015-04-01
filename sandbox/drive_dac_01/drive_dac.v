@@ -5,6 +5,6 @@ module drive_dac
 	output  [9:0] led
 ); 
 
-	assign led = sw;
+	//assign led = sw;
 	
 endmodule

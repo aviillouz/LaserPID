@@ -1,5 +1,6 @@
 vendor_name = ModelSim
 source_file = 1, C:/Users/OWNER/Documents/GitHub/LaserPID/sandbox/drive_dac_01/drive_dac.v
+source_file = 1, C:/Users/OWNER/Documents/GitHub/LaserPID/sandbox/drive_dac_01/Chain.cdf
 source_file = 1, C:/Users/OWNER/Documents/GitHub/LaserPID/sandbox/drive_dac_01/db/drive_dac.cbx.xml
 design_name = drive_dac
 instance = comp, \gpio1[0]~output , gpio1[0]~output, drive_dac, 1
