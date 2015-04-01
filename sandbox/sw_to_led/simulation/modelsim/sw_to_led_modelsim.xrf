@@ -1,10 +1,10 @@
 vendor_name = ModelSim
-source_file = 1, C:/altera/14.0/avi LaserPID/sandbox/sw_to_led/sw_to_led.v
-source_file = 1, C:/altera/14.0/avi LaserPID/sandbox/sw_to_led/Chain.cdf
-source_file = 1, C:/altera/14.0/avi LaserPID/sandbox/sw_to_led/Chain6.cdf
-source_file = 1, C:/altera/14.0/avi LaserPID/sandbox/sw_to_led/Chain1.cdf
-source_file = 1, C:/altera/14.0/avi LaserPID/sandbox/sw_to_led/Chain2.cdf
-source_file = 1, C:/altera/14.0/avi LaserPID/sandbox/sw_to_led/db/sw_to_led.cbx.xml
+source_file = 1, C:/Users/OWNER/Documents/GitHub/LaserPID/sandbox/sw_to_led/sw_to_led.v
+source_file = 1, C:/Users/OWNER/Documents/GitHub/LaserPID/sandbox/sw_to_led/Chain.cdf
+source_file = 1, C:/Users/OWNER/Documents/GitHub/LaserPID/sandbox/sw_to_led/Chain6.cdf
+source_file = 1, C:/Users/OWNER/Documents/GitHub/LaserPID/sandbox/sw_to_led/Chain1.cdf
+source_file = 1, C:/Users/OWNER/Documents/GitHub/LaserPID/sandbox/sw_to_led/Chain2.cdf
+source_file = 1, C:/Users/OWNER/Documents/GitHub/LaserPID/sandbox/sw_to_led/db/sw_to_led.cbx.xml
 design_name = sw_to_led
 instance = comp, \gpio1[0]~output , gpio1[0]~output, sw_to_led, 1
 instance = comp, \gpio1[1]~output , gpio1[1]~output, sw_to_led, 1
