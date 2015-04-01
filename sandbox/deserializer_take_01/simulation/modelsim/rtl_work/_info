@@ -1,0 +1,25 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\14.0\sandbox\deserializer_take_01\simulation\modelsim
+vdeserializer
+!i10b 1
+!s100 cfmgQjGhOBRl=ZOSB1IC12
+I8K3c_T3b0NTjTN@M6NfJX3
+VULc7T6Lb<WbA2VjHCNiU51
+Z1 dC:\altera\14.0\sandbox\deserializer_take_01\simulation\modelsim
+w1418575924
+8C:/altera/14.0/sandbox/deserializer_take_01/deserializer.v
+FC:/altera/14.0/sandbox/deserializer_take_01/deserializer.v
+L0 2
+OV;L;10.1e;51
+r1
+!s85 0
+31
+!s108 1418576066.085000
+!s107 C:/altera/14.0/sandbox/deserializer_take_01/deserializer.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/altera/14.0/sandbox/deserializer_take_01|C:/altera/14.0/sandbox/deserializer_take_01/deserializer.v|
+!s101 -O0
+o-vlog01compat -work work -O0
+!s92 -vlog01compat -work work +incdir+C:/altera/14.0/sandbox/deserializer_take_01 -O0

@@ -1,0 +1,11 @@
+vendor_name = ModelSim
+source_file = 1, C:/altera/14.0/sandbox/pid_take_02_mux/pid_take_02_mux.v
+source_file = 1, C:/altera/14.0/sandbox/pid_take_02_mux/output_files/Chain.cdf
+source_file = 1, C:/altera/14.0/sandbox/pid_take_02_mux/db/pid_take_02_mux.cbx.xml
+design_name = pid_take_02_mux
+instance = comp, \mux_out~output , mux_out~output, pid_take_02_mux, 1
+instance = comp, \sel~input , sel~input, pid_take_02_mux, 1
+instance = comp, \din_0~input , din_0~input, pid_take_02_mux, 1
+instance = comp, \din_1~input , din_1~input, pid_take_02_mux, 1
+instance = comp, \mux_out~0 , mux_out~0, pid_take_02_mux, 1
+instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, pid_take_02_mux, 1

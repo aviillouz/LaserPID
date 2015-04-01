@@ -1,0 +1,77 @@
+# Copyright (C) 1991-2014 Altera Corporation. All rights reserved.
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, the Altera Quartus II License Agreement,
+# the Altera MegaCore Function License Agreement, or other 
+# applicable license agreement, including, without limitation, 
+# that your use is for the sole purpose of programming logic 
+# devices manufactured by Altera and sold by Altera or its 
+# authorized distributors.  Please refer to the applicable 
+# agreement for further details.
+
+# Quartus II 64-Bit Version 14.0.0 Build 200 06/17/2014 SJ Web Edition
+# File: C:\altera\14.0\avi LaserPID\sandbox\sw_to_led\sw_to_led_assignments.csv
+# Generated on: Mon Mar 16 13:40:46 2015
+
+Status,From,To,Assignment Name,Value,Enabled,Entity,Comment,Tag
+Ok,,led[0],Location,PIN_V16,Yes,,,
+Ok,,led[1],Location,PIN_W16,Yes,,,
+Ok,,led[2],Location,PIN_V17,Yes,,,
+Ok,,led[3],Location,PIN_V18,Yes,,,
+Ok,,led[4],Location,PIN_W17,Yes,,,
+Ok,,led[5],Location,PIN_W19,Yes,,,
+Ok,,led[6],Location,PIN_Y19,Yes,,,
+Ok,,led[7],Location,PIN_W20,Yes,,,
+Ok,,led[8],Location,PIN_W21,Yes,,,
+Ok,,sw,Location,PIN_Y21,Yes,,,
+Ok,,sw[0],Location,PIN_AB12,Yes,,,
+Ok,,sw[1],Location,PIN_AC12,Yes,,,
+Ok,,sw[2],Location,PIN_AF9,Yes,,,
+Ok,,sw[3],Location,PIN_AF10,Yes,,,
+Ok,,sw[4],Location,PIN_AD11,Yes,,,
+Ok,,sw[5],Location,PIN_AD12,Yes,,,
+Ok,,sw[6],Location,PIN_AE11,Yes,,,
+Ok,,sw[7],Location,PIN_AC9,Yes,,,
+Ok,,sw[8],Location,PIN_AD10,Yes,,,
+Ok,,led,Location,PIN_AE12,Yes,,,
+Ok,,gpio1[0],Location,PIN_AB17,Yes,,,
+Ok,,sw[8],I/O Standard,2.5 V,Yes,sw_to_led,,
+Ok,,gpio1[0],I/O Standard,2.5 V,Yes,sw_to_led,,
+Ok,,gpio1[1],Location,PIN_AA21,Yes,,,
+Ok,,gpio1[1],I/O Standard,2.5 V,Yes,sw_to_led,,
+Ok,,gpio1[2],Location,PIN_AB21,Yes,,,
+Ok,,gpio1[2],I/O Standard,2.5 V,Yes,sw_to_led,,
+Ok,,gpio1[3],Location,PIN_AC23,Yes,,,
+Ok,,gpio1[3],I/O Standard,2.5 V,Yes,sw_to_led,,
+Ok,,gpio1[4],Location,PIN_AD24,Yes,,,
+Ok,,gpio1[4],I/O Standard,2.5 V,Yes,sw_to_led,,
+Ok,,gpio1[5],Location,PIN_AE23,Yes,,,
+Ok,,gpio1[5],I/O Standard,2.5 V,Yes,sw_to_led,,
+Ok,,gpio1[6],Location,PIN_AE24,Yes,,,
+Ok,,gpio1[6],I/O Standard,2.5 V,Yes,sw_to_led,,
+Ok,,gpio1[7],Location,PIN_AF25,Yes,,,
+Ok,,gpio1[7],I/O Standard,2.5 V,Yes,sw_to_led,,
+Ok,,gpio1[8],Location,PIN_AF26,Yes,,,
+Ok,,gpio1[8],I/O Standard,2.5 V,Yes,sw_to_led,,
+Ok,,led[0],I/O Standard,2.5 V,Yes,sw_to_led,,
+Ok,,led[1],I/O Standard,2.5 V,Yes,sw_to_led,,
+Ok,,led[2],I/O Standard,2.5 V,Yes,sw_to_led,,
+Ok,,led[3],I/O Standard,2.5 V,Yes,sw_to_led,,
+Ok,,led[4],I/O Standard,2.5 V,Yes,sw_to_led,,
+Ok,,led[5],I/O Standard,2.5 V,Yes,sw_to_led,,
+Ok,,led[6],I/O Standard,2.5 V,Yes,sw_to_led,,
+Ok,,led[7],I/O Standard,2.5 V,Yes,sw_to_led,,
+Ok,,led[8],I/O Standard,2.5 V,Yes,sw_to_led,,
+Ok,,sw[0],I/O Standard,2.5 V,Yes,sw_to_led,,
+Ok,,sw[1],I/O Standard,2.5 V,Yes,sw_to_led,,
+Ok,,sw[2],I/O Standard,2.5 V,Yes,sw_to_led,,
+Ok,,sw[3],I/O Standard,2.5 V,Yes,sw_to_led,,
+Ok,,sw[4],I/O Standard,2.5 V,Yes,sw_to_led,,
+Ok,,sw[5],I/O Standard,2.5 V,Yes,sw_to_led,,
+Ok,,sw[6],I/O Standard,2.5 V,Yes,sw_to_led,,
+Ok,,sw[7],I/O Standard,2.5 V,Yes,sw_to_led,,
+,<<new>>,<<new>>,<<new>>,,,,,

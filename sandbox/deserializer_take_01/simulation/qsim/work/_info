@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\14.0\sandbox\deserializer_take_01\simulation\qsim
+vdeserializer
+Z1 !s100 Vo3`incUncMCRfN_9`[SY2
+Z2 I_OB5AP9SZ`n42[bbPY9aB1
+Z3 VULc7T6Lb<WbA2VjHCNiU51
+Z4 dC:\altera\14.0\sandbox\deserializer_take_01\simulation\qsim
+Z5 w1418577608
+Z6 8deserializer.vo
+Z7 Fdeserializer.vo
+L0 32
+Z8 OV;L;10.1e;51
+r1
+31
+Z9 !s90 -work|work|deserializer.vo|
+Z10 o-work work -O0
+!i10b 1
+!s85 0
+Z11 !s108 1418577609.428000
+Z12 !s107 deserializer.vo|
+!s101 -O0
+vdeserializer_vlg_check_tst
+!i10b 1
+Z13 !s100 c70a3lgzSWl8Ah8Fl]mih2
+Z14 I@mk_PgQ6B5S^^0QOMKS@?0
+Z15 VFaXYgkB4k9E9ddMfVH@Zz1
+R4
+Z16 w1418577607
+Z17 8wave01.vwf.vt
+Z18 Fwave01.vwf.vt
+L0 62
+R8
+r1
+!s85 0
+31
+Z19 !s108 1418577609.646000
+Z20 !s107 wave01.vwf.vt|
+Z21 !s90 -work|work|wave01.vwf.vt|
+!s101 -O0
+R10
+vdeserializer_vlg_sample_tst
+!i10b 1
+Z22 !s100 ANeQJTTkfm3i73jW1:5C92
+Z23 I[Eo4cYzEZk;VH_H[b[TT`1
+Z24 Vz6V1V?fdD?[768bGDE<>40
+R4
+R16
+R17
+R18
+L0 30
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10
+vdeserializer_vlg_vec_tst
+!i10b 1
+Z25 !s100 G6>o^M8<6XOKBJ;KFdMI00
+Z26 I2mY@_127nmhl_N;TSV>kI1
+Z27 VPGUz4^cz;f7K6F5[U<jz41
+R4
+R16
+R17
+R18
+Z28 L0 282
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10
