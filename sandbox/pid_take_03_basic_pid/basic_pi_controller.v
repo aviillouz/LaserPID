@@ -1,4 +1,4 @@
-//A PI controller
+//A basic PI controller
 //moudle to correct signal_output according to error_input
 module basic_pi_controller(
  output signed [8:0] signal_output, //the signal - output
